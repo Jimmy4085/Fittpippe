@@ -45,13 +45,19 @@ button:active {
   transform: scale(0.9);
 }
 
-/* GRID */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 220px)); /* 👈 clave */
-  gap: 15px;
-  justify-content: center;  /* 👈 centra las tarjetas */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
   padding: 10px;
+}   /* 👈 aquí se cierra */
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    max-width: 1000px;
+    margin: auto;
+  }
 }
 
 /* PRODUCTO */
