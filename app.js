@@ -1,4 +1,4 @@
-// FILTRO CON ANIMACIÓN
+// FILTRO
 function filtrar(tipo) {
   const productos = document.querySelectorAll('.producto');
 
@@ -22,7 +22,7 @@ function filtrar(tipo) {
   });
 }
 
-// ANIMACIÓN AL SCROLL (tipo app)
+// ANIMACIÓN SCROLL
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -32,7 +32,6 @@ const observer = new IntersectionObserver(entries => {
   });
 });
 
-// APLICAR A PRODUCTOS
 document.addEventListener("DOMContentLoaded", () => {
   const elementos = document.querySelectorAll('.producto');
 
