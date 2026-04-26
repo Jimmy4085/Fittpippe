@@ -70,8 +70,8 @@ button:active {
 /* 👇 esto es APARTE */
 .producto img {
   width: 100%;
-  height: 180px;
-  object-fit: contain;
+  height: 240px;
+  object-fit: cover;
 }
 
 /* 👇 esto es APARTE */
