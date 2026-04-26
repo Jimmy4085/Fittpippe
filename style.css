@@ -42,19 +42,17 @@ button:active {
 /* GRID */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 220px)); /* 👈 clave */
+  gap: 15px;
+  justify-content: center;  /* 👈 centra las tarjetas */
   padding: 10px;
 }
 
 /* PRODUCTO */
 .producto {
-  background: white;
-  border-radius: 12px;
-  padding: 10px;
-  text-align: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 220px;  /* 👈 evita que crezca demasiado */
+  margin: auto;
 }
 
 .producto img {
