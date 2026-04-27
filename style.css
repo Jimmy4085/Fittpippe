@@ -388,8 +388,6 @@ button:active {
   padding: 20px;
 }
 
-/* ===== MENÚ LATERAL PRO ===== */
-
 /* ===== MENU CATEGORÍAS ===== */
 .categorias {
   background: #fff;
@@ -461,12 +459,6 @@ button:active {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 20px;
-}
-/* ===== CONTENEDOR PRINCIPAL ===== */
-.contenedor-principal {
-  display: flex;
-  gap: 20px;
-  padding: 20px;
 }
 
 /* ===== GRID PRODUCTOS ===== */
