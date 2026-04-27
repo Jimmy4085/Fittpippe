@@ -300,3 +300,101 @@ button:active {
   font-size: 15px;
   color: #333;
 }
+/* ===== PRODUCTO DETALLE (VALVULA) ===== */
+
+.producto-detalle {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  max-width: 1100px;
+  margin: auto;
+  align-items: flex-start;
+}
+
+/* IZQUIERDA (IMAGEN) */
+.producto-izq {
+  flex: 1;
+}
+
+.producto-izq img {
+  width: 100%;
+  max-width: 450px;
+  object-fit: contain;
+}
+
+/* DERECHA (INFO) */
+.producto-der {
+  flex: 1;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+/* PRECIO DETALLE */
+.producto-der .precio {
+  font-size: 32px;
+  color: #e60023;
+  font-weight: bold;
+  margin: 10px 0;
+  background: none;
+  padding: 0;
+}
+
+/* ESTADOS */
+.stock {
+  color: green;
+  font-weight: bold;
+}
+
+/* BOTON */
+.producto-der button {
+  width: 100%;
+  padding: 15px;
+  background: #25D366;
+  font-size: 16px;
+}
+
+/* ===== FICHA TÉCNICA ===== */
+.ficha-box {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.ficha-titulo {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.ficha-contenido {
+  display: none;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.ficha-contenido table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ficha-contenido td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+@media (max-width: 768px) {
+  .producto-detalle {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .producto-der {
+    width: 100%;
+  }
+
+  .producto-izq img {
+    max-width: 100%;
+  }
+}
