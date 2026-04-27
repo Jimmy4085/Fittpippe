@@ -6,19 +6,25 @@ body {
   padding-top: 310px; /* 👈 espacio para el header */
 }
 
-.header {
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
   gap: 15px;
-  flex-wrap: wrap; /* clave para móvil */
+  flex-wrap: wrap;
   background: #fff;
+}
+
+.logo {
+  flex: 0 0 auto;
 }
 
 .logo img {
   height: 60px;
   width: auto;
+  max-width: 120px;
+  object-fit: contain;
 }
 
 .buscador {
