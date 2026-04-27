@@ -55,7 +55,7 @@ header {
 }
 .filtro {
   text-align: center;
-  padding: 15px;
+  padding: 30px;
 }
 button {
   margin: 5px;
@@ -76,7 +76,7 @@ button:active {
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
   padding: 10px;
-}   /* 👈 aquí se cierra */
+}   
 
 @media (min-width: 768px) {
   .grid {
@@ -109,19 +109,16 @@ button:active {
   height: 100%;
 }
 
-/* 👇 esto es APARTE */
 .producto img {
   width: 100%;
   height: 240px;
   object-fit: cover;
 }
 
-/* 👇 esto es APARTE */
 .producto h4 {
   min-height: 40px;
 }
 
-/* 👇 esto es APARTE */
 .producto a {
   margin-top: auto;
 }
