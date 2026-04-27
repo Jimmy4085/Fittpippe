@@ -39,3 +39,12 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(el);
   });
 });
+document.querySelector(".buscador input").addEventListener("input", function () {
+  const texto = this.value.toLowerCase();
+  const productos = document.querySelectorAll(".producto");
+
+  productos.forEach(p => {
+    const nombre = p.textContent.toLowerCase();
+    p.style.display = nombre.includes(texto) ? "block" : "none";
+  });
+});
