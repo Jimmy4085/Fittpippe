@@ -82,11 +82,11 @@ button:active {
 }
 
 /* ===== PRODUCTO CARD ===== */
-.producto {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  transition: 0.2s;
+.productos {
+  flex: 1; 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 20px;
 }
 
 .producto img {
