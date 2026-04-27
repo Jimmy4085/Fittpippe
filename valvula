@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Válvula de Bola 32mm PVC</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">
+    <img src="img/logopippe.png" alt="Logo">
+  </div>
+
+  <div class="descripcion">
+    <p>Soluciones rápidas en fittings</p>
+  </div>
+</header>
+
+<!-- DETALLE PRODUCTO -->
+<div class="producto-detalle">
+
+  <!-- IMAGEN -->
+  <div class="producto-img">
+    <img src="img/valvula.jpg" alt="Válvula PVC 32mm">
+  </div>
+
+  <!-- INFO -->
+  <div class="producto-info">
+    <h1>Válvula de Bola 32mm PVC</h1>
+
+    <p class="precio">$4.100</p>
+
+    <p class="descripcion">
+      Válvula de bola fabricada en PVC, ideal para controlar el flujo de agua en instalaciones domiciliarias o de riego.
+    </p>
+
+    <!-- BOTON WHATSAPP -->
+    <button onclick="contactar('Válvula de Bola 32mm PVC')">
+      Consultar por WhatsApp
+    </button>
+
+    <!-- FICHA TECNICA -->
+    <div class="ficha">
+
+      <button class="ficha-btn" onclick="toggleFicha()">
+        Ficha técnica ▼
+      </button>
+
+      <div class="ficha-contenido" id="fichaContenido">
+        <ul>
+          <li><strong>Material:</strong> PVC</li>
+          <li><strong>Diámetro:</strong> 32 mm</li>
+          <li><strong>Tipo:</strong> Válvula de bola</li>
+          <li><strong>Uso:</strong> Agua / riego</li>
+          <li><strong>Conexión:</strong> Cementar</li>
+          <li><strong>Presión máxima:</strong> 10 bar</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+  <div class="footer-contenido">
+
+    <div class="footer-info">
+      <h4>Contacto</h4>
+      <p>📍 Puerto Montt, Chile</p>
+      <p>📞 +56 9 4871 3517</p>
+      <p>✉ ventas@fittpippe.cl</p>
+    </div>
+
+    <div class="footer-logo">
+      <img src="img/logopippe.png" alt="Logo">
+    </div>
+
+    <div class="footer-empresa">
+      <h4>FittPippe</h4>
+      <p>Soluciones rápidas en fittings</p>
+    </div>
+
+  </div>
+
+  <div class="footer-copy">
+    <p>© 2026 Todos los derechos reservados</p>
+    <p>Desarrollado por Jimmy Oñate</p>
+  </div>
+
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
