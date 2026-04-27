@@ -517,3 +517,9 @@ html, body {
 .grid {
   align-items: stretch;
 }
+@media (max-width: 768px) {
+  .menu {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+}
