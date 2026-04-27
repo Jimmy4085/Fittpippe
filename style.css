@@ -369,3 +369,62 @@ button:active {
   background: #ff6600;
   color: #fff;
 }
+/* ===== LAYOUT GENERAL ===== */
+.contenedor-principal {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* ===== MENÚ LATERAL ===== */
+.menu-categorias {
+  width: 240px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  height: fit-content;
+}
+
+/* Título */
+.menu-categorias h3 {
+  margin-bottom: 15px;
+}
+
+/* DETALLES (DESPLEGABLE) */
+.menu-categorias details {
+  margin-bottom: 10px;
+}
+
+/* TITULO DESPLEGABLE */
+.menu-categorias summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+/* LINKS */
+.menu-categorias a {
+  display: block;
+  padding: 6px 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* HOVER */
+.menu-categorias a:hover {
+  background: #ff6600;
+  color: #fff;
+}
+
+/* ===== PRODUCTOS ===== */
+.productos {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
