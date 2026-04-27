@@ -142,4 +142,28 @@ a {
   text-decoration: none;
   margin-top: 5px;
 }
+.footer {
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px 20px;
+  flex-wrap: wrap;
+}
 
+.footer div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #ccc;
+}
